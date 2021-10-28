@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "679661776888",
+    "project_id": "nkuproject-8f0d9",
+    "storage_bucket": "nkuproject-8f0d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679661776888:android:fe23756051fba5a905b00d",
+        "android_client_info": {
+          "package_name": "com.e.nkuproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679661776888-gflu5ki09g6di9e3m187csr65sfbv4bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk0v-AOJYfGyDwFJt96MwV9B6VPOym_tM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679661776888-gflu5ki09g6di9e3m187csr65sfbv4bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
