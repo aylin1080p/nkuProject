@@ -7,8 +7,11 @@
         <entry key="app/src/main/res/drawable/background_oval.xml" value="0.1890625" />
         <entry key="app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.1890625" />
         <entry key="app/src/main/res/layout/activity_add_event.xml" value="0.16875" />
-        <entry key="app/src/main/res/layout/activity_feed.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_feed.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1734375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/card_design_optionel.xml" value="0.1734375" />
+        <entry key="app/src/main/res/layout/home.xml" value="0.1734375" />
         <entry key="app/src/main/res/layout/item_activity.xml" value="0.16875" />
         <entry key="app/src/main/res/layout/partial_action.xml" value="0.16875" />
         <entry key="app/src/main/res/layout/partial_main_activity.xml" value="0.25" />

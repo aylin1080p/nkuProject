@@ -3,12 +3,16 @@
     <item
         android:id="@+id/menuHome"
         android:title="Home"
-        android:icon="@drawable/ic_home" />
+        android:icon="@drawable/ic_home"
+        android:onClick="goHome"
+        />
 
     <item
         android:id="@+id/menuSearch"
         android:icon="?android:attr/actionModeWebSearchDrawable"
-        android:title="Search" />
+        android:title="Search"
+        android:onClick="goSearch"
+        />
 
     <item
         android:id="@+id/placeholder"
@@ -17,10 +21,13 @@
     <item
         android:id="@+id/menuNotification"
         android:icon="@drawable/ic_baseline_notifications_none_24"
-        android:title="Notification" />
+        android:title="Notification"
+        android:onClick="goNotifications"
+        />
 
     <item
         android:id="@+id/menuProfile"
         android:title="Profile"
-        android:icon="@drawable/ic_user" />
+        android:icon="@drawable/ic_user"
+        android:onClick="goProfile"/>
 </menu>

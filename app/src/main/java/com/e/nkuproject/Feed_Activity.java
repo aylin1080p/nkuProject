@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -14,6 +16,8 @@ public class Feed_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feed);
+
+
         addEventButton = (FloatingActionButton) findViewById(R.id.addEventButton);
         addEventButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,5 +30,15 @@ public class Feed_Activity extends AppCompatActivity {
         });
 
 
+
+
+
+
+
+
+
+
     }
+
+
 }
