@@ -10,12 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NkuProject">
         <activity
-            android:name=".Add_Event_Activity"
-            android:exported="false" />
-        <activity
-            android:name=".Feed_Activity"
-            android:exported="false" />
-        <activity
             android:name=".Login_Activity"
             android:exported="true">
             <intent-filter>
