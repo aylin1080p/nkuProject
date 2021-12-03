@@ -20,7 +20,7 @@ public class Login_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         btn_login = findViewById(R.id.btn_login);
-        btn_goSignin = findViewById(R.id.btn_goSignin);
+        btn_goSignin = findViewById(R.id.btn_Signin);
 
         btn_goSignin.setOnClickListener(new View.OnClickListener() {
             @Override
