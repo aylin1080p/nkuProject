@@ -54,9 +54,10 @@ private FirebaseAuth.AuthStateListener mAuthListener;
                         .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                // create account
+                // create account -----> go to login page
                         Toast.makeText(Signin_Activity.this, "kullanıcı oluşturuldu", Toast.LENGTH_SHORT).show();
-
+                        Intent intent = new Intent(Signin_Activity.this,Login_Activity.class);
+                        startActivity(intent);
 
                     }
                 });
