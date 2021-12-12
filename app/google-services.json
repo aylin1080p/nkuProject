@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "679661776888",
-    "project_id": "nkuproject-8f0d9",
-    "storage_bucket": "nkuproject-8f0d9.appspot.com"
+    "project_number": "643870222335",
+    "project_id": "nkuprojectfb",
+    "storage_bucket": "nkuprojectfb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:679661776888:android:fe23756051fba5a905b00d",
+        "mobilesdk_app_id": "1:643870222335:android:2fe3d4b939570cc2d429ca",
         "android_client_info": {
           "package_name": "com.e.nkuproject"
         }
       },
       "oauth_client": [
         {
-          "client_id": "679661776888-gflu5ki09g6di9e3m187csr65sfbv4bu.apps.googleusercontent.com",
+          "client_id": "643870222335-m5l9ek05vdn41of5g6l6teh9lajspurs.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBk0v-AOJYfGyDwFJt96MwV9B6VPOym_tM"
+          "current_key": "AIzaSyBYbAWLJOD4UJfm1-dNrjMynoEvD5L3dGc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "679661776888-gflu5ki09g6di9e3m187csr65sfbv4bu.apps.googleusercontent.com",
+              "client_id": "643870222335-m5l9ek05vdn41of5g6l6teh9lajspurs.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
