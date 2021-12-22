@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -24,11 +25,14 @@ public class Login_Activity extends AppCompatActivity {
     private Button btn_goSignin;
     String userMail, userPassword;
     EditText signin_email, signin_password;
+    private ImageView loginWithGoogle;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -69,7 +73,7 @@ public class Login_Activity extends AppCompatActivity {
 
                         if (task.isSuccessful()){
                             Toast.makeText(getApplicationContext(), "giriş başarılı ", Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(Login_Activity.this,FeedActivity.class);
+                            Intent intent = new Intent(Login_Activity.this, Feed_Activity.class);
                             startActivity(intent);
                         }
                         else {
@@ -88,5 +92,24 @@ public class Login_Activity extends AppCompatActivity {
 
             }
         });
- }
+
+        loginWithGoogle = findViewById(R.id.loginWithGoogle);
+        loginWithGoogle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Toast.makeText(getApplicationContext(), "Google Hesabı ile Giriş yapma işlemleri", Toast.LENGTH_SHORT).show();
+
+
+
+            }
+        });
+
+
+
+
+
+
+    } // OnCreate end
+
 }
