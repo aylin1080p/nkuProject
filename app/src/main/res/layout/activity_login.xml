@@ -228,10 +228,10 @@
                 android:src="@drawable/twitter" />
 
             <ImageView
-                android:id="@+id/loginWithLinked"
-                android:layout_width="26.7dp"
-                android:layout_height="26.7dp"
-                android:src="@drawable/linkedin" />
+                android:id="@+id/loginWithGoogle"
+                android:layout_width="50.7dp"
+                android:layout_height="50.7dp"
+                app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
 
         </LinearLayout>
 
